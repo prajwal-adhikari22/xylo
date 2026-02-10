@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding-top: 60px;
+}
+
+ nav{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+#logo{
+    align-self: center;
+}
+
+#logo img{
+    height: 30px;
+    margin-left: 25px;
+    align-self: center;
+}
+
+
+
+nav ul{
+    align-self: center;
+}
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left:  50px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ccc;
+}
+
+
+.container{
+    margin-right: -80px;
+    margin-left: 350px;
+    width: 700px;
+    align-self: center;
+}
+
+.cart{
+    align-self: center;
+    margin-left: 20px;
+    
+}
+
+.cart img{
+    cursor: pointer;
+}
+
+.form{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 20px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+}
+
+input[type="username"], input[type="password"], input[type="email"]{
+    width: 300px;
+    height: 30px;
+    margin-top: 0px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    align-self: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    background-color: white;
+
+   
+}
+
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    align-self: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Roboto
+}
+
+#login{
+    background-color: lightgrey;
+}
+
+
+input, textarea{
+    text-align: center;
+}
+
+.form h3{
+    margin-bottom: px;
+}
+
+.form #or{
+    margin-top: -35px;
+}
+
+.form h1{
+    margin-bottom: 25px;
+}
+
+label .name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input::placeholder{
+    color: rgb(83, 83, 83);
+}
+
+h4.x{
+    color: rgb(61, 61, 61);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+label.left{
+
+    font-size: small;
+   
+
+}
+ 
+h5.m{
+    color: rgb(90, 89, 89);
+}
+
+.forma{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: o 4px 8px black;
+}
+
+input.a[type="email"],[type="password"]{
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+ #forget{
+    font-size: 10pt;
+    margin-left: 25px;
+}
+
+#remember{
+    margin-right: 25px;
+}
+
+#forget a{
+    text-decoration: none;
+}
+
+.x a{
+    text-decoration: none;
+}
+
+#terms a{
+    text-decoration: none;
+}
+
+.m{
+    margin-right: 50px;
+}
+
+#details{
+    margin-right: 129px;
+}
